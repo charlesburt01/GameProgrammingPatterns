@@ -8,4 +8,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="GangOfFour\StatePattern\Hero\Program.cs" />
+    <Compile Remove="GangOfFour\StatePattern\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="GangOfFour\StatePattern\Hero\Program.cs" />
+  </ItemGroup>
+
 </Project>
