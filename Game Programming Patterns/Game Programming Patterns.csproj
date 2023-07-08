@@ -9,12 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="GangOfFour\StatePattern\Hero\Program.cs" />
-    <Compile Remove="GangOfFour\StatePattern\Program.cs" />
+    <Compile Remove="Behavioural\State\Hero\Program.cs" />
+    <Compile Remove="Behavioural\State\Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="GangOfFour\StatePattern\Hero\Program.cs" />
+    <None Include="Behavioural\State\Hero\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Structural\Component\" />
+    <Folder Include="Behavioural\Observer\" />
+    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>

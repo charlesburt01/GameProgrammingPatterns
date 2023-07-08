@@ -1,9 +1,9 @@
 ﻿class FileSystem
 {
-    private FileSystem(){} // closing off instantiation, by making the constructor private
+    private FileSystem() { } // closing off instantiation, by making the constructor private
 
     private static FileSystem _instance;
-    public static FileSystem Instance 
+    public static FileSystem Instance
     {
         get
         {
@@ -15,14 +15,5 @@
         }
     }
 
-    public Object File;
-}
-
-class MyClass
-{
-    void MyMethod()
-    {
-        var f = FileSystem.Instance.File;
-
-    }
+    public string FileName = "Hello World!";
 }
