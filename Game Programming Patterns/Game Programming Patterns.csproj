@@ -11,16 +11,21 @@
   <ItemGroup>
     <Compile Remove="Behavioural\State\Hero\Program.cs" />
     <Compile Remove="Behavioural\State\Program.cs" />
+    <Compile Remove="Creational\Singleton\Simple\FileSystem.cs" />
+    <Compile Remove="Creational\Singleton\Simple\Program.cs" />
+    <Compile Remove="Structural\Stategy\Example.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Behavioural\State\Hero\Program.cs" />
+    <None Include="Creational\Singleton\Simple\FileSystem.cs" />
+    <None Include="Creational\Singleton\Simple\Program.cs" />
+    <None Include="Structural\Stategy\Example.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Structural\Component\" />
     <Folder Include="Behavioural\Observer\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>
